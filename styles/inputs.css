@@ -1,0 +1,19 @@
+.primary-input {
+    background-color: var(--color-white-fixed);
+    border: 2px solid var(--color-grey-4);
+    border-radius: var(--radius-1);
+    font-family: var(--font-family-1);
+    color: var(--color-grey-2);
+    padding: 16px 20px;
+    font-size: var(--font-text-1);
+}
+
+.primary-input::placeholder {
+    color: var(--color-grey-3);
+}
+
+.primary-input:focus {
+    border: 2px solid var(--color-brand-1);
+    outline: none;
+    color: var(--color-grey-2);
+}

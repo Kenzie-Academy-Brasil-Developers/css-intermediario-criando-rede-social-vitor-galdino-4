@@ -1,0 +1,24 @@
+.bottom-position {
+    width: 61%;
+}
+
+.top-position {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    transition: all 1s;
+}
+
+.top-position > .top-left {
+    width: 713px;
+    max-width: var(--percentage-100);
+}
+
+.top-position > .top-right {
+    align-self: start;
+    width: 337px;
+    max-width: var(--percentage-100);
+    position: absolute;
+    height: var(--percentage-100);
+    right: 0;
+}

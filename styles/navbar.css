@@ -1,6 +1,11 @@
 .navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     background-color: var(--color-grey-1);
     padding: 1.75rem 0;
+    z-index: 100;
 }
 
 .navbar-items{
@@ -21,7 +26,7 @@
     border-radius: var(--radius-1);
     text-decoration: none;
     font-size: 0.875rem;
-    font-weight: 400;
+    font-weight: var(--font-weight-3);
     cursor: pointer;
 }
 

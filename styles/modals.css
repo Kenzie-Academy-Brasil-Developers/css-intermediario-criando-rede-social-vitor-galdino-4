@@ -1,0 +1,52 @@
+.modal-box {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: var(--viewport-height-1);
+    background-color: var(--color-grey-opacity-1);
+    backdrop-filter: blur(2px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal {
+    position: relative;
+    background-color: var(--color-white-fixed);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.404);
+    width: 761px;
+    height: max-content;
+    max-height: var(--viewport-height-2);
+    overflow: auto;
+    padding: 40px 24px;
+    border-radius: var(--radius-0);
+    animation: openModal .6s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+
+.modal-header .modal-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: var(--font-family-2);
+    color: var(--color-grey-3);
+    width: var(--size-1);
+    height: var(--size-1);
+    border-radius: var(--percentage-100);
+    border: none;
+    cursor: pointer;
+    user-select: none;
+}
+
+.modal-body h2 {
+    color: var(--color-grey-1);
+}
+
+.modal-body p {
+    color: var(--color-grey-2);
+}
+
+.close {
+    animation: closeModal .6s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}

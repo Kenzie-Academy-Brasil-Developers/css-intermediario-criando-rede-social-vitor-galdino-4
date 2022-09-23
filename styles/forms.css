@@ -1,0 +1,20 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container > input {
+    width: auto;
+    height: 3.25rem;
+}
+
+.form-container > textarea {
+    width: auto;
+    height: 8.125rem;
+}
+
+.form-container > button {
+    align-self: flex-end;
+    width: 4.313rem;
+    height: 2.375rem;
+}

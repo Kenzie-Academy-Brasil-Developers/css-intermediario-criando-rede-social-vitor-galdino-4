@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/globalStyles.css" />
+  <link rel="stylesheet" href="./pages/home/style.css" />
+  <link rel="stylesheet" href="./styles/navbar.css">
+  <link rel="stylesheet" href="./styles/positions.css">
+  <link rel="stylesheet" href="./styles/margins.css">
+  <link rel="stylesheet" href="./styles/fonts.css">
+  <link rel="stylesheet" href="./styles/forms.css">
+  <link rel="stylesheet" href="./styles/buttons.css">
+  <link rel="stylesheet" href="./styles/inputs.css">
+  <link rel="stylesheet" href="./styles/textareas.css">
+  <link rel="stylesheet" href="./styles/smallProfile.css">
+  <link rel="stylesheet" href="./styles/asides.css">
+  <link rel="stylesheet" href="./styles/modals.css">
+  <link rel="stylesheet" href="./styles/displays.css">
+  <link rel="stylesheet" href="./styles/animations.css">
+  <title>TechPosters - Home</title>
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="container navbar-items">
+      <img draggable="false" src="./assets/img/logo.svg" alt="TechPosters logo">
+      <ul class="navbar-links">
+        <li>
+          <a class="navbar-link" href="#">Sair</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <main>
+    <div class="container mt-1">
+      <div class="top-position">
+        <section class="top-left mb-2">
+          <form>
+            <div class="small-profile">
+              <img src="./assets/img/user1.svg" alt="User picture">
+              <div class="user-info">
+                <h4 class="font-title-2">Samuel Leão</h4>
+                <span class="font-text-3">Front end Engineer</span>
+              </div>
+            </div>
+            <div class="form-container">
+              <input type="text" class="font-text-2 mt-2 primary-input" name="title-post"
+                placeholder="Digitar título do post">
+              <textarea class="font-text-2 mt-2 primary-textarea" name="desc-post"
+                placeholder="Digitar descrição do post"></textarea>
+              <button class="font-text-1 mt-3 disable-btn">Postar</button>
+            </div>
+          </form>
+        </section>
+        <aside class="aside-1 top-right">
+          <section>
+            <h3 class="font-title-2 mb-1">Sugestões para você seguir</h3>
+            <ul>
+              <li class="mb-1">
+                <div class="small-profile">
+                  <img src="./assets/img/user3.svg" alt="User picture">
+                  <div class="user-info">
+                    <h4 class="font-title-2">Carlos Limao</h4>
+                    <span class="font-text-3">UX e UI Desginer</span>
+                  </div>
+                </div>
+                <button class="font-text-1 outline-btn-actived">Seguindo</button>
+              </li>
+              <li class="mb-1">
+                <div class="small-profile">
+                  <img src="./assets/img/user6.svg" alt="User picture">
+                  <div class="user-info">
+                    <h4 class="font-title-2">Larissa Camargo</h4>
+                    <span class="font-text-3">UI Developer</span>
+                  </div>
+                </div>
+                <button class="font-text-1 outline-btn">Seguir</button>
+              </li>
+              <li class="mb-1">
+                <div class="small-profile">
+                  <img src="./assets/img/user7.svg" alt="User picture">
+                  <div class="user-info">
+                    <h4 class="font-title-2">Filipe Gutierry</h4>
+                    <span class="font-text-3">Full Stack Developer</span>
+                  </div>
+                </div>
+                <button class="font-text-1 outline-btn">Seguir</button>
+              </li>
+            </ul>
+          </section>
+        </aside>
+      </div>
+      <div class="bottom-position mb-2">
+        <section class="posts">
+          <h3 class="mb-2 font-title-1">Posts</h3>
+        </section>
+      </div>
+    </div>
+  </main>
+</body>
+<script src="./script/database/users.js"></script>
+<script src="./script/database/posts.js"></script>
+<script src="./script/database/sugestUsers.js"></script>
+<script src="./pages/home/index.js"></script>
+
+</html>

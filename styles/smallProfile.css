@@ -1,0 +1,23 @@
+.small-profile {
+    width: max-content;
+    display: flex;
+    gap: var(--gap-1);
+}
+
+.small-profile .user-info {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-2);
+}
+
+.small-profile h3 {
+    color: var(--color-grey-1);
+}
+
+.small-profile span {
+    color: var(--color-grey-2);
+}
+
+.small-profile > img {
+    width: var(--size-0);
+}

@@ -1,0 +1,19 @@
+.primary-textarea {
+    resize: none;
+    outline: none;
+    padding: 28px 21px 29px;
+    font-family: var(--font-family-1);
+    background-color: var(--color-white-fixed);
+    color: var(--color-grey-2);
+    border: 2px solid var(--color-grey-4);
+    border-radius: var(--radius-1);
+}
+
+.primary-textarea::placeholder {
+    color: var(--color-grey-3);
+    font-size: var(--font-text-1);
+}
+
+.primary-textarea:focus {
+    border: 2px solid var(--color-brand-1);
+}

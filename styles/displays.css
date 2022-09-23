@@ -1,0 +1,9 @@
+@media (max-width: 1080px) {
+    .top-position > .top-right, .aside-1 section {
+        position: static;
+    }
+
+    .top-position > .top-left, .bottom-position {
+        width: var(--percentage-100);
+    }
+}

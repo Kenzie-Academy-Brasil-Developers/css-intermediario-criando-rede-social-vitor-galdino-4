@@ -1,0 +1,23 @@
+.aside-1 {
+    position: relative;
+}
+
+.aside-1 section {
+    position: sticky;
+    top: 146px;
+}
+
+.aside-1 h3 {
+    color: var(--color-grey-1);
+}
+
+.aside-1 li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aside-1 .outline-btn {
+    align-self: start;
+    width: 4.25rem;
+    height: 1.75rem;
+}
