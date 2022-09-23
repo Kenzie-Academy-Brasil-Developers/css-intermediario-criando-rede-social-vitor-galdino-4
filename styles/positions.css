@@ -6,7 +6,6 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    transition: all 1s;
 }
 
 .top-position > .top-left {
@@ -20,5 +19,5 @@
     max-width: var(--percentage-100);
     position: absolute;
     height: var(--percentage-100);
-    right: 0;
+    right: 18px;
 }
